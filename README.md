@@ -2,8 +2,8 @@
 
 ## Cronômetro simples, feito em JS
 
-### Screenshot:
+### GIF:
 ![gif](https://media1.giphy.com/media/lOIGBCszUqQ0X1Tsb5/giphy.gif)
 
-### Animation:
+### Screenshot:
 ![img](https://i.imgur.com/61ee7BX.png)
