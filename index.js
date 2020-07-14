@@ -1,10 +1,7 @@
 cronometro = (() => {
-
     let temporizador = document.getElementById('temporizador')
-    let temporizadorString = temporizador.textContent
-    let temporizadorArray = temporizadorString.split(':')
+    let temporizadorArray = temporizador.textContent.split(':')
     let temporizadorParado = true
-    
     let [hh, mm, ss] = temporizadorArray
 
     function iniciar () {
@@ -34,11 +31,10 @@ cronometro = (() => {
     }
 
     function zerar () {
-        
         [hh, mm, ss] = temporizadorArray
         temporizador.textContent = `${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}:${String(ss).padStart(2, '0')}`
-        clearInterval(iniciar)
         temporizadorParado = true
+        clearInterval(iniciar)
     }
 
     return {
