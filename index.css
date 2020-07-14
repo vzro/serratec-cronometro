@@ -1,0 +1,44 @@
+body{
+    background-color: #343434;;
+}
+
+.container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: black;
+    color: #FFF;
+    border-radius: 10px;
+    margin-top: 150px;;
+    text-align: center;
+}
+
+#temporizador{
+    font-size: 48px;
+    text-align: center;
+
+}
+.grupo-botoes {
+    padding: 20px;
+}
+button{
+    width: 70px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 8px;;
+}
+
+button.btn-iniciar {
+    background-color: green;
+
+}
+
+button.btn-pausar {
+    background-color: brown;
+
+}
+button.btn-zerar {
+    background-color: orange;
+
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <span id="temporizador">00:00:00</span>
+
+        <div class="grupo-botoes">
+            <button onclick="cronometro.iniciar()" class="btn-iniciar">Iniciar</button>
+            <button onclick="cronometro.parar()"class="btn-pausar">Pausar</button>
+            <button onclick="cronometro.zerar()"class="btn-zerar">Zerar</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
