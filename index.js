@@ -21,7 +21,6 @@ cronometro = (() => {
                     }
                 }
             , 1000)
-            return iniciar
         }
     }
 
